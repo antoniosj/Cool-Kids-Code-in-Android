@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              android:orientation="vertical"
+              android:layout_width="match_parent"
+              android:layout_height="match_parent">
+
+    <EditText
+            android:text="nome"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" android:id="@+id/et_first_name"/>
+    <EditText
+            android:text="sobrenome"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" android:id="@+id/et_last_name"/>
+    <EditText
+            android:text="idade"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" android:id="@+id/et_age"/>
+    <Button
+            android:text="save"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" android:id="@+id/bt_save"/>
+    <Button
+            android:text="cancel"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" android:id="@+id/bt_cancel"/>
+    <Button
+            android:text="edit"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" android:id="@+id/bt_edit"/>
+</LinearLayout>
